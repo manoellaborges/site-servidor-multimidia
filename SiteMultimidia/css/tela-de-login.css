@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #7843E6, #f124fa, #2bdbf8, #4f89f1);
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+.Usuario {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.Senha {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button {
+    background-color: #7843E6;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #4f89f1;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 5 px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #f124fa;
+    background-color: transparent;
+    outline: none;
+}
+
+#msgError {
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
