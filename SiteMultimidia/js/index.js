@@ -29,7 +29,7 @@ function entrar() {
     })
 
     if (usuario.value == userValid.user && senha.value == userValid.senha) {
-        window.location.href = "../html/tela-principal.html"
+        window.location.href = "./html/tela-principal.html"
     } else {
         userLabel.setAttribute('style', 'color: red')
         usuario.setAttribute('style', 'border-color: red')

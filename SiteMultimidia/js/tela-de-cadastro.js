@@ -77,7 +77,7 @@ function cadastrar() {
         msgError.setAttribute('style', 'display: nome')
         msgError.innerHTML = ''
 
-        window.location.href = "../html/tela-de-login.html"
+        window.location.href = "../index.html"
     } else {
         msgError.setAttribute('style', 'display: block')
         msgError.innerHTML = '<strong>Preencha todos os campos corretamente</strong>'
